@@ -12,10 +12,10 @@ import time
 from numpy import binary_repr
 
 # Rule selection
-rule = 27
+rule = 110
 
 # Seeding (puts binary ON at specified indecies)
-seed_indicies = 11, 19, 37, 92, 250
+seed_indicies = 11, 19, 37, 83
 
 # Evolution parameters
 generations = 300
@@ -23,7 +23,7 @@ delay = 0.05
 
 # Static variables
 boundaries = False
-width = 250
+width = 90
 fill = u"\u25A0"
 empty = ' '
 
